@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="large_margin">26dp</dimen>
+    <dimen name="regular_margin">16dp</dimen>
+    <dimen name="small_margin">10dp</dimen>
+    <dimen name="no_margin">0dp</dimen>
+
+    <!--Padding-->
+    <dimen name="large_padding">24dp</dimen>
+    <dimen name="regular_padding">16dp</dimen>
+    <dimen name="medium_padding">14dp</dimen>
+    <dimen name="small_padding">10dp</dimen>
+    <dimen name="x_small_padding">8dp</dimen>
+    <dimen name="xx_small_padding">4dp</dimen>
+    <dimen name="xxx_small_padding">2dp</dimen>
+    <dimen name="no_padding">0dp</dimen>
+
+    <!--Font sizes-->
+    <dimen name="very_large_text_size">50sp</dimen>
+    <dimen name="text_header">22sp</dimen>
+    <dimen name="text_sub_header">18sp</dimen>
+    <dimen name="medium_text_size">17sp</dimen>
+    <dimen name="small_text_size">14sp</dimen>
+    <dimen name="x_small_text_size">12sp</dimen>
+
+    <!--Shape Size-->
+    <dimen name="min_button_width">48dp</dimen>
+    <dimen name="min_button_height">48dp</dimen>
+    <dimen name="poster_detail_width">150dp</dimen>
+    <dimen name="poster_item_height">260dp</dimen>
+    <dimen name="poster_dialog_height">220dp</dimen>
+    <dimen name="backdrop_height">240dp</dimen>
+    <dimen name="trailer_item_width">230dp</dimen>
+    <dimen name="trailer_item_height">150dp</dimen>
+    <dimen name="trailer_logo_width">70dp</dimen>
+    <dimen name="trailer_logo_height">70dp</dimen>
+</resources>

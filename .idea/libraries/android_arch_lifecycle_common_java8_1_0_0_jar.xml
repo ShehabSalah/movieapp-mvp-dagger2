@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="android.arch.lifecycle:common-java8:1.0.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common-java8/1.0.0/a7458929c2f84a8a59b6b4da631a36f07091cf79/common-java8-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common-java8/1.0.0/36951fbd0446c843d047b866b9b5c370dee60956/common-java8-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#121212</color>
+    <color name="colorPrimaryDark">#202020</color>
+    <color name="colorAccent">#33B5E5</color>
+    <color name="colorSecond">#FF0099CC</color>
+    <color name="colorThird">#007ba4</color>
+    <color name="main_background">#0099cc</color>
+
+    <!--Text Colors-->
+    <color name="white">#fff</color>
+    <color name="black_text">#000</color>
+    <color name="trailer_type_color">#fff200</color>
+</resources>
