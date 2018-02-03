@@ -1,4 +1,4 @@
-# movieapp-mvp-clean MVP + Dagger 2 (Dagger-Android)
+# movieapp-mvp MVP + Dagger 2 (Dagger-Android)
 ### Summary
 This sample is based on the [MVP sample](https://github.com/ShehabSalah/movieapp-mvp) and uses Dagger to externalize the creation of dependencies from the classes that use them.
 
@@ -60,10 +60,10 @@ public abstract class MovieModule {
 ```
 Of course, we will also need to mark our Module as abstract in this case, which is more efficient than a concrete one and thus makes <code> @Binds </code> more efficient.
 
-##### What makes our abstract Module more performing?
+#### What makes our abstract Module more performing?
 <code> @Provides </code> methods are instance methods and they need an instance of our module in order to be invoked. If our Module is abstract and contains <code> @Binds </code> methods, dagger will not instantiate our module and instead directly use the Provider of our injected parameter (MoviesPresenter in the above case).
 
-##### What if your module contains both <code> @Provides </code> and <code> @Binds </code> methods?
+#### What if your module contains both <code> @Provides </code> and <code> @Binds </code> methods?
 In case, your Module has both <code> @Provides </code> and <code> @Binds </code> methods, you have two options :
 - Simplest would be to mark your <code> @Provides </code> instance methods as <code> static </code>.
 - If it is necessary to keep them as instance methods, then you can split your module into two and extract out all the <code> @Binds </code> methods into an abstract Module.
@@ -150,7 +150,7 @@ public abstract class ActivityBindingModule_DetailsActivity {
 }
 ```
 
-##### So, What <code> @ContributesAndroidInjector </code> do?
+#### So, What <code> @ContributesAndroidInjector </code> do?
 - It generates the <code> DetailsActivitySubcomponent </code>.
 - It adds the necessary <code> @Subcomponent </code> annotation for us.
 - It adds an entry of (<code> DetailsActivity.class </code>, <code> DetailsActivitySubcomponent.Builder </code>) to the Map of Injector Factories used by <code> DispatchingAndroidInjector </code>. <code> Dagger-Android </code> uses this entry to build our <code> DetailsActivitySubcomponent </code> and perform injections for <code> DetailsActivity </code>.
